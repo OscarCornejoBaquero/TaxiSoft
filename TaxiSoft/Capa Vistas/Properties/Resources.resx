@@ -118,28 +118,133 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8_show_password_30px_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagenes\icons8_show_password_30px_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_forgot_password_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_forgot_password_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_user_30px_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagenes\icons8_user_30px_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_home_64px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_home_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_taxi_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagenes\icons8_taxi_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="minimize_window_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\minimize_window_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_close_window_26px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_close_window_26px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_close_window_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagenes\icons8_close_window_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_workspace_48px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagenes\icons8_workspace_48px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="taxi_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\taxi_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_home_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_home_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\pdf_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restore_window_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\restore_window_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="company_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\company_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\business_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_taxi_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_taxi_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_home_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_home_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\pdf_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="direction_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\direction_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator_male_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\administrator_male_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FondoLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagenes\FondoLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_forgot_password_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagenes\icons8_forgot_password_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="male_user_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\male_user_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_close_window_26px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="maximize_button_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\maximize_button_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_workspace_48px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_workspace_48px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\imagenLogin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_delete_50px_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_delete_50px_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="handshake_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\handshake_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_close_window_26px_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagenes\icons8_close_window_26px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waypoint_map_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\waypoint_map_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subway_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\subway_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_delete_50px_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_delete_50px_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\pdf_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="male_user_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\male_user_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_groups_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\user_groups_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reception_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\reception_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_building_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\business_building_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="company_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\company_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taxi_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\taxi_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_show_password_30px_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_show_password_30px_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\car_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGOsISTEMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\LOGOsISTEMA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_user_30px_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\icons8_user_30px_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conference_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\conference_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\silver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="near_me_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\near_me_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\user_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_report_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\business_report_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

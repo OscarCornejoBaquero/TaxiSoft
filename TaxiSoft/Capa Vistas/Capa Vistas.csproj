@@ -46,16 +46,151 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuloAdministracion\AdministracionEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdministracion\AdministracionEmpresa.Designer.cs">
+      <DependentUpon>AdministracionEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdministracion\AdministracionInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdministracion\AdministracionInicio.Designer.cs">
+      <DependentUpon>AdministracionInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdministracion\AdministracionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdministracion\AdministracionUsuarios.Designer.cs">
+      <DependentUpon>AdministracionUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloClientes\ClientesConsultaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloClientes\ClientesConsultaClientes.Designer.cs">
+      <DependentUpon>ClientesConsultaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloClientes\ClientesGestionClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloClientes\ClientesGestionClientes.Designer.cs">
+      <DependentUpon>ClientesGestionClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloReportes\ReportesClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloReportes\ReportesClientes.Designer.cs">
+      <DependentUpon>ReportesClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloReportes\ReportesGenerales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloReportes\ReportesGenerales.Designer.cs">
+      <DependentUpon>ReportesGenerales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloReportes\ReportesSocios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloReportes\ReportesSocios.Designer.cs">
+      <DependentUpon>ReportesSocios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloReportes\ReporteTaxis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloReportes\ReporteTaxis.Designer.cs">
+      <DependentUpon>ReporteTaxis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloSocios\SociosGestionSocios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloSocios\SociosGestionSocios.Designer.cs">
+      <DependentUpon>SociosGestionSocios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloSocios\SociosGestionTaxis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloSocios\SociosGestionTaxis.Designer.cs">
+      <DependentUpon>SociosGestionTaxis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloTaxis\ServiciosCarreras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloTaxis\ServiciosCarreras.Designer.cs">
+      <DependentUpon>ServiciosCarreras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloTaxis\AdministraconEstadoTaxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloTaxis\AdministraconEstadoTaxi.Designer.cs">
+      <DependentUpon>AdministraconEstadoTaxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloTaxis\AdministracionRutas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloTaxis\AdministracionRutas.Designer.cs">
+      <DependentUpon>AdministracionRutas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdministracion\AdministracionEmpresa.resx">
+      <DependentUpon>AdministracionEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdministracion\AdministracionInicio.resx">
+      <DependentUpon>AdministracionInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdministracion\AdministracionUsuarios.resx">
+      <DependentUpon>AdministracionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloClientes\ClientesConsultaClientes.resx">
+      <DependentUpon>ClientesConsultaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloClientes\ClientesGestionClientes.resx">
+      <DependentUpon>ClientesGestionClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloReportes\ReportesClientes.resx">
+      <DependentUpon>ReportesClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloReportes\ReportesGenerales.resx">
+      <DependentUpon>ReportesGenerales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloReportes\ReportesSocios.resx">
+      <DependentUpon>ReportesSocios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloReportes\ReporteTaxis.resx">
+      <DependentUpon>ReporteTaxis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloSocios\SociosGestionSocios.resx">
+      <DependentUpon>SociosGestionSocios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloSocios\SociosGestionTaxis.resx">
+      <DependentUpon>SociosGestionTaxis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloTaxis\ServiciosCarreras.resx">
+      <DependentUpon>ServiciosCarreras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloTaxis\AdministraconEstadoTaxi.resx">
+      <DependentUpon>AdministraconEstadoTaxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloTaxis\AdministracionRutas.resx">
+      <DependentUpon>AdministracionRutas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,19 +215,46 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="ModuloClientes\" />
-    <Folder Include="ModuloReportes\" />
-    <Folder Include="ModuloTaxis\" />
-    <Folder Include="ModuloUsuarios\" />
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Imagenes\taxi_80px.png" />
+    <None Include="Imagenes\subway_100px.png" />
+    <None Include="Imagenes\waypoint_map_40px.png" />
+    <None Include="Imagenes\user_100px.png" />
+    <None Include="Imagenes\silver.jpg" />
+    <None Include="Imagenes\male_user_100px.png" />
+    <None Include="Imagenes\male_user_30px.png" />
+    <None Include="Imagenes\LOGOsISTEMA.png" />
+    <None Include="Imagenes\imagenLogin.jpg" />
+    <None Include="Imagenes\pdf_24px.png" />
+    <None Include="Imagenes\pdf_50px.png" />
+    <None Include="Imagenes\pdf_16px.png" />
+    <None Include="Imagenes\reception_16px.png" />
+    <None Include="Imagenes\taxi_16px.png" />
+    <None Include="Imagenes\near_me_16px.png" />
+    <None Include="Imagenes\user_groups_16px.png" />
+    <None Include="Imagenes\business_16px.png" />
+    <None Include="Imagenes\company_16px.png" />
+    <None Include="Imagenes\conference_16px.png" />
+    <None Include="Imagenes\handshake_16px.png" />
+    <None Include="Imagenes\car_16px.png" />
+    <None Include="Imagenes\company_100px.png" />
+    <None Include="Imagenes\administrator_male_100px.png" />
+    <None Include="Imagenes\business_building_100px.png" />
+    <None Include="Imagenes\direction_100px.png" />
+    <None Include="Imagenes\business_report_100px.png" />
     <Content Include="Imagenes\icons8_close_window_26px.png" />
     <Content Include="Imagenes\icons8_close_window_26px_1.png" />
+    <Content Include="Imagenes\icons8_delete_50px_2.png" />
     <Content Include="Imagenes\icons8_forgot_password_30px.png" />
+    <Content Include="Imagenes\icons8_home_16px.png" />
+    <Content Include="Imagenes\icons8_home_64px.png" />
     <Content Include="Imagenes\icons8_show_password_30px_2.png" />
     <Content Include="Imagenes\icons8_user_30px_7.png" />
     <Content Include="Imagenes\icons8_workspace_48px_1.png" />
+    <None Include="Imagenes\restore_window_32px.png" />
+    <None Include="Imagenes\minimize_window_32px.png" />
+    <None Include="Imagenes\maximize_button_32px.png" />
     <None Include="Imagenes\FondoLogin.png" />
     <Content Include="Imagenes\icons8_taxi_40px.png" />
   </ItemGroup>
