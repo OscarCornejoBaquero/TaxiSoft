@@ -45,6 +45,7 @@ namespace Capa_Vistas.ModuloAdministracion
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textoDashboard = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -306,12 +307,23 @@ namespace Capa_Vistas.ModuloAdministracion
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // textoDashboard
+            // 
+            this.textoDashboard.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textoDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.textoDashboard.Location = new System.Drawing.Point(13, 4);
+            this.textoDashboard.Name = "textoDashboard";
+            this.textoDashboard.Size = new System.Drawing.Size(123, 33);
+            this.textoDashboard.TabIndex = 18;
+            this.textoDashboard.Text = "Dashboard";
+            // 
             // AdministracionInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1050, 534);
+            this.Controls.Add(this.textoDashboard);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label8);
@@ -362,5 +374,6 @@ namespace Capa_Vistas.ModuloAdministracion
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label textoDashboard;
     }
 }

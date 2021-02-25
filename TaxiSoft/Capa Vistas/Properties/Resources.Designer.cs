@@ -153,6 +153,36 @@ namespace Capa_Vistas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edit_file_64px {
+            get {
+                object obj = ResourceManager.GetObject("edit_file_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_property_30px {
+            get {
+                object obj = ResourceManager.GetObject("edit_property_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_property_64px {
+            get {
+                object obj = ResourceManager.GetObject("edit_property_64px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FondoLogin {
             get {
                 object obj = ResourceManager.GetObject("FondoLogin", resourceCulture);
@@ -416,6 +446,16 @@ namespace Capa_Vistas.Properties {
         internal static System.Drawing.Bitmap restore_window_32px {
             get {
                 object obj = ResourceManager.GetObject("restore_window_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_40px {
+            get {
+                object obj = ResourceManager.GetObject("save_40px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

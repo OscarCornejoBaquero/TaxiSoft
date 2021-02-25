@@ -31,26 +31,31 @@ namespace Capa_Vistas
         {
             this.pBarraHerramienta = new System.Windows.Forms.Panel();
             this.textoBarra = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnRestaurar = new System.Windows.Forms.PictureBox();
+            this.btnMinimizar = new System.Windows.Forms.PictureBox();
+            this.btnMaximizar = new System.Windows.Forms.PictureBox();
+            this.btnSalir = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelSubMenuServicios = new System.Windows.Forms.Panel();
-            this.panelSubMenuSocios = new System.Windows.Forms.Panel();
-            this.panelSubMenuAdmin = new System.Windows.Forms.Panel();
             this.panelSubmenuReportes = new System.Windows.Forms.Panel();
-            this.panelSubClientes = new System.Windows.Forms.Panel();
             this.btnReporteGeneral = new System.Windows.Forms.Button();
             this.btnReporteTaxis = new System.Windows.Forms.Button();
             this.btnReporteCliente = new System.Windows.Forms.Button();
             this.btnReporteSocio = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
+            this.panelSubMenuServicios = new System.Windows.Forms.Panel();
             this.btnCarreras = new System.Windows.Forms.Button();
             this.btnServicios = new System.Windows.Forms.Button();
+            this.panelSubClientes = new System.Windows.Forms.Panel();
             this.btnClienteConsulta = new System.Windows.Forms.Button();
             this.btnClienteAcciones = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
+            this.panelSubMenuSocios = new System.Windows.Forms.Panel();
             this.btnAdminTaxis = new System.Windows.Forms.Button();
             this.btnAdminSocios = new System.Windows.Forms.Button();
             this.btnSocios = new System.Windows.Forms.Button();
+            this.panelSubMenuAdmin = new System.Windows.Forms.Panel();
             this.btnEstadoTaxi = new System.Windows.Forms.Button();
             this.btnRutas = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
@@ -58,24 +63,19 @@ namespace Capa_Vistas
             this.btnAdmin = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnRestaurar = new System.Windows.Forms.PictureBox();
-            this.btnMinimizar = new System.Windows.Forms.PictureBox();
-            this.btnMaximizar = new System.Windows.Forms.PictureBox();
-            this.btnSalir = new System.Windows.Forms.PictureBox();
             this.pBarraHerramienta.SuspendLayout();
-            this.panelMenu.SuspendLayout();
-            this.panelSubMenuServicios.SuspendLayout();
-            this.panelSubMenuSocios.SuspendLayout();
-            this.panelSubMenuAdmin.SuspendLayout();
-            this.panelSubmenuReportes.SuspendLayout();
-            this.panelSubClientes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
+            this.panelMenu.SuspendLayout();
+            this.panelSubmenuReportes.SuspendLayout();
+            this.panelSubMenuServicios.SuspendLayout();
+            this.panelSubClientes.SuspendLayout();
+            this.panelSubMenuSocios.SuspendLayout();
+            this.panelSubMenuAdmin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pBarraHerramienta
@@ -100,9 +100,74 @@ namespace Capa_Vistas
             this.textoBarra.ForeColor = System.Drawing.SystemColors.Control;
             this.textoBarra.Location = new System.Drawing.Point(45, 8);
             this.textoBarra.Name = "textoBarra";
-            this.textoBarra.Size = new System.Drawing.Size(600, 23);
+            this.textoBarra.Size = new System.Drawing.Size(276, 23);
             this.textoBarra.TabIndex = 4;
             this.textoBarra.Text = "Sistema de Control de Taxi Ruta Software";
+            this.textoBarra.MouseDown += new System.Windows.Forms.MouseEventHandler(this.textoBarra_MouseDown);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::Capa_Vistas.Properties.Resources.icons8_taxi_40px;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 28);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnRestaurar
+            // 
+            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRestaurar.Image = global::Capa_Vistas.Properties.Resources.restore_window_32px;
+            this.btnRestaurar.Location = new System.Drawing.Point(1200, 3);
+            this.btnRestaurar.Name = "btnRestaurar";
+            this.btnRestaurar.Size = new System.Drawing.Size(33, 28);
+            this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnRestaurar.TabIndex = 2;
+            this.btnRestaurar.TabStop = false;
+            this.btnRestaurar.Visible = false;
+            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimizar.Image = global::Capa_Vistas.Properties.Resources.minimize_window_32px;
+            this.btnMinimizar.Location = new System.Drawing.Point(1161, 5);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(33, 28);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMinimizar.TabIndex = 2;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnMaximizar
+            // 
+            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMaximizar.Image = global::Capa_Vistas.Properties.Resources.maximize_button_32px;
+            this.btnMaximizar.Location = new System.Drawing.Point(1200, 5);
+            this.btnMaximizar.Name = "btnMaximizar";
+            this.btnMaximizar.Size = new System.Drawing.Size(33, 28);
+            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMaximizar.TabIndex = 1;
+            this.btnMaximizar.TabStop = false;
+            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSalir.Image = global::Capa_Vistas.Properties.Resources.icons8_delete_50px_2;
+            this.btnSalir.Location = new System.Drawing.Point(1239, 5);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(33, 28);
+            this.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnSalir.TabIndex = 0;
+            this.btnSalir.TabStop = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // panelContenedor
             // 
@@ -135,37 +200,6 @@ namespace Capa_Vistas
             this.panelMenu.Size = new System.Drawing.Size(233, 573);
             this.panelMenu.TabIndex = 1;
             // 
-            // panelSubMenuServicios
-            // 
-            this.panelSubMenuServicios.Controls.Add(this.btnCarreras);
-            this.panelSubMenuServicios.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuServicios.Location = new System.Drawing.Point(0, 816);
-            this.panelSubMenuServicios.Name = "panelSubMenuServicios";
-            this.panelSubMenuServicios.Size = new System.Drawing.Size(216, 57);
-            this.panelSubMenuServicios.TabIndex = 13;
-            // 
-            // panelSubMenuSocios
-            // 
-            this.panelSubMenuSocios.Controls.Add(this.btnAdminTaxis);
-            this.panelSubMenuSocios.Controls.Add(this.btnAdminSocios);
-            this.panelSubMenuSocios.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuSocios.Location = new System.Drawing.Point(0, 488);
-            this.panelSubMenuSocios.Name = "panelSubMenuSocios";
-            this.panelSubMenuSocios.Size = new System.Drawing.Size(216, 108);
-            this.panelSubMenuSocios.TabIndex = 10;
-            // 
-            // panelSubMenuAdmin
-            // 
-            this.panelSubMenuAdmin.Controls.Add(this.btnEstadoTaxi);
-            this.panelSubMenuAdmin.Controls.Add(this.btnRutas);
-            this.panelSubMenuAdmin.Controls.Add(this.btnUsuarios);
-            this.panelSubMenuAdmin.Controls.Add(this.btnEmpresa);
-            this.panelSubMenuAdmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuAdmin.Location = new System.Drawing.Point(0, 221);
-            this.panelSubMenuAdmin.Name = "panelSubMenuAdmin";
-            this.panelSubMenuAdmin.Size = new System.Drawing.Size(216, 217);
-            this.panelSubMenuAdmin.TabIndex = 8;
-            // 
             // panelSubmenuReportes
             // 
             this.panelSubmenuReportes.Controls.Add(this.btnReporteGeneral);
@@ -177,16 +211,6 @@ namespace Capa_Vistas
             this.panelSubmenuReportes.Name = "panelSubmenuReportes";
             this.panelSubmenuReportes.Size = new System.Drawing.Size(216, 225);
             this.panelSubmenuReportes.TabIndex = 14;
-            // 
-            // panelSubClientes
-            // 
-            this.panelSubClientes.Controls.Add(this.btnClienteConsulta);
-            this.panelSubClientes.Controls.Add(this.btnClienteAcciones);
-            this.panelSubClientes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubClientes.Location = new System.Drawing.Point(0, 646);
-            this.panelSubClientes.Name = "panelSubClientes";
-            this.panelSubClientes.Size = new System.Drawing.Size(216, 120);
-            this.panelSubClientes.TabIndex = 15;
             // 
             // btnReporteGeneral
             // 
@@ -302,6 +326,15 @@ namespace Capa_Vistas
             this.btnReportes.UseVisualStyleBackColor = false;
             this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
+            // panelSubMenuServicios
+            // 
+            this.panelSubMenuServicios.Controls.Add(this.btnCarreras);
+            this.panelSubMenuServicios.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenuServicios.Location = new System.Drawing.Point(0, 816);
+            this.panelSubMenuServicios.Name = "panelSubMenuServicios";
+            this.panelSubMenuServicios.Size = new System.Drawing.Size(216, 57);
+            this.panelSubMenuServicios.TabIndex = 13;
+            // 
             // btnCarreras
             // 
             this.btnCarreras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -346,6 +379,16 @@ namespace Capa_Vistas
             this.btnServicios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnServicios.UseVisualStyleBackColor = false;
             this.btnServicios.Click += new System.EventHandler(this.btnServicios_Click);
+            // 
+            // panelSubClientes
+            // 
+            this.panelSubClientes.Controls.Add(this.btnClienteConsulta);
+            this.panelSubClientes.Controls.Add(this.btnClienteAcciones);
+            this.panelSubClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubClientes.Location = new System.Drawing.Point(0, 646);
+            this.panelSubClientes.Name = "panelSubClientes";
+            this.panelSubClientes.Size = new System.Drawing.Size(216, 120);
+            this.panelSubClientes.TabIndex = 15;
             // 
             // btnClienteConsulta
             // 
@@ -415,6 +458,16 @@ namespace Capa_Vistas
             this.btnClientes.UseVisualStyleBackColor = false;
             this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
+            // panelSubMenuSocios
+            // 
+            this.panelSubMenuSocios.Controls.Add(this.btnAdminTaxis);
+            this.panelSubMenuSocios.Controls.Add(this.btnAdminSocios);
+            this.panelSubMenuSocios.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenuSocios.Location = new System.Drawing.Point(0, 488);
+            this.panelSubMenuSocios.Name = "panelSubMenuSocios";
+            this.panelSubMenuSocios.Size = new System.Drawing.Size(216, 108);
+            this.panelSubMenuSocios.TabIndex = 10;
+            // 
             // btnAdminTaxis
             // 
             this.btnAdminTaxis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -482,6 +535,18 @@ namespace Capa_Vistas
             this.btnSocios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSocios.UseVisualStyleBackColor = false;
             this.btnSocios.Click += new System.EventHandler(this.btnSocios_Click);
+            // 
+            // panelSubMenuAdmin
+            // 
+            this.panelSubMenuAdmin.Controls.Add(this.btnEstadoTaxi);
+            this.panelSubMenuAdmin.Controls.Add(this.btnRutas);
+            this.panelSubMenuAdmin.Controls.Add(this.btnUsuarios);
+            this.panelSubMenuAdmin.Controls.Add(this.btnEmpresa);
+            this.panelSubMenuAdmin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenuAdmin.Location = new System.Drawing.Point(0, 221);
+            this.panelSubMenuAdmin.Name = "panelSubMenuAdmin";
+            this.panelSubMenuAdmin.Size = new System.Drawing.Size(216, 217);
+            this.panelSubMenuAdmin.TabIndex = 8;
             // 
             // btnEstadoTaxi
             // 
@@ -630,70 +695,6 @@ namespace Capa_Vistas
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Capa_Vistas.Properties.Resources.icons8_taxi_40px;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnRestaurar
-            // 
-            this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRestaurar.Image = global::Capa_Vistas.Properties.Resources.restore_window_32px;
-            this.btnRestaurar.Location = new System.Drawing.Point(1200, 3);
-            this.btnRestaurar.Name = "btnRestaurar";
-            this.btnRestaurar.Size = new System.Drawing.Size(33, 28);
-            this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnRestaurar.TabIndex = 2;
-            this.btnRestaurar.TabStop = false;
-            this.btnRestaurar.Visible = false;
-            this.btnRestaurar.Click += new System.EventHandler(this.btnRestaurar_Click);
-            // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.Image = global::Capa_Vistas.Properties.Resources.minimize_window_32px;
-            this.btnMinimizar.Location = new System.Drawing.Point(1161, 5);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(33, 28);
-            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMinimizar.TabIndex = 2;
-            this.btnMinimizar.TabStop = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMaximizar.Image = global::Capa_Vistas.Properties.Resources.maximize_button_32px;
-            this.btnMaximizar.Location = new System.Drawing.Point(1200, 5);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(33, 28);
-            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMaximizar.TabIndex = 1;
-            this.btnMaximizar.TabStop = false;
-            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalir.Image = global::Capa_Vistas.Properties.Resources.icons8_delete_50px_2;
-            this.btnSalir.Location = new System.Drawing.Point(1239, 5);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(33, 28);
-            this.btnSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnSalir.TabIndex = 0;
-            this.btnSalir.TabStop = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -708,18 +709,18 @@ namespace Capa_Vistas
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
             this.pBarraHerramienta.ResumeLayout(false);
-            this.panelMenu.ResumeLayout(false);
-            this.panelSubMenuServicios.ResumeLayout(false);
-            this.panelSubMenuSocios.ResumeLayout(false);
-            this.panelSubMenuAdmin.ResumeLayout(false);
-            this.panelSubmenuReportes.ResumeLayout(false);
-            this.panelSubClientes.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).EndInit();
+            this.panelMenu.ResumeLayout(false);
+            this.panelSubmenuReportes.ResumeLayout(false);
+            this.panelSubMenuServicios.ResumeLayout(false);
+            this.panelSubClientes.ResumeLayout(false);
+            this.panelSubMenuSocios.ResumeLayout(false);
+            this.panelSubMenuAdmin.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

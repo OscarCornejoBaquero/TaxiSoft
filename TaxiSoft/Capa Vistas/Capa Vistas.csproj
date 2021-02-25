@@ -217,6 +217,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Imagenes\save_40px.png" />
     <None Include="Imagenes\taxi_80px.png" />
     <None Include="Imagenes\subway_100px.png" />
     <None Include="Imagenes\waypoint_map_40px.png" />
@@ -243,6 +244,9 @@
     <None Include="Imagenes\business_building_100px.png" />
     <None Include="Imagenes\direction_100px.png" />
     <None Include="Imagenes\business_report_100px.png" />
+    <None Include="Imagenes\edit_file_64px.png" />
+    <None Include="Imagenes\edit_property_64px.png" />
+    <None Include="Imagenes\edit_property_30px.png" />
     <Content Include="Imagenes\icons8_close_window_26px.png" />
     <Content Include="Imagenes\icons8_close_window_26px_1.png" />
     <Content Include="Imagenes\icons8_delete_50px_2.png" />
