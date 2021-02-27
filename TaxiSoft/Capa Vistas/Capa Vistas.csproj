@@ -112,6 +112,12 @@
     <Compile Include="ModuloReportes\ReporteTaxis.Designer.cs">
       <DependentUpon>ReporteTaxis.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuloSocios\SociosGestionChoferes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloSocios\SociosGestionChoferes.Designer.cs">
+      <DependentUpon>SociosGestionChoferes.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModuloSocios\SociosGestionSocios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     <EmbeddedResource Include="ModuloReportes\ReporteTaxis.resx">
       <DependentUpon>ReporteTaxis.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModuloSocios\SociosGestionChoferes.resx">
+      <DependentUpon>SociosGestionChoferes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModuloSocios\SociosGestionSocios.resx">
       <DependentUpon>SociosGestionSocios.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,6 +226,21 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Imagenes\new_copy_40px.png" />
+    <None Include="Imagenes\us_dollar_16px.png" />
+    <None Include="Imagenes\save2_40px.png" />
+    <None Include="Imagenes\search_40px.png" />
+    <None Include="Imagenes\unavailable_40px.png" />
+    <None Include="Imagenes\plus_40px.png" />
+    <None Include="Imagenes\phone_16px.png" />
+    <None Include="Imagenes\map_16px.png" />
+    <None Include="Imagenes\view_more_16px.png" />
+    <None Include="Imagenes\password_16px.png" />
+    <None Include="Imagenes\user_16px.png" />
+    <None Include="Imagenes\name_16px.png" />
+    <None Include="Imagenes\identity_theft_16px.png" />
+    <None Include="Imagenes\search_property_40px.png" />
+    <None Include="Imagenes\search_property_64px.png" />
     <None Include="Imagenes\save_40px.png" />
     <None Include="Imagenes\taxi_80px.png" />
     <None Include="Imagenes\subway_100px.png" />
@@ -247,6 +271,14 @@
     <None Include="Imagenes\edit_file_64px.png" />
     <None Include="Imagenes\edit_property_64px.png" />
     <None Include="Imagenes\edit_property_30px.png" />
+    <None Include="Imagenes\find_user_male_40px.png" />
+    <None Include="Imagenes\camera_16px.png" />
+    <None Include="Imagenes\address_16px.png" />
+    <None Include="Imagenes\calendar_16px.png" />
+    <None Include="Imagenes\email_16px.png" />
+    <None Include="Imagenes\delete_30px.png" />
+    <None Include="Imagenes\delete_64px.png" />
+    <None Include="Imagenes\edit_40px.png" />
     <Content Include="Imagenes\icons8_close_window_26px.png" />
     <Content Include="Imagenes\icons8_close_window_26px_1.png" />
     <Content Include="Imagenes\icons8_delete_50px_2.png" />

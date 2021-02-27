@@ -150,6 +150,7 @@ namespace Capa_Vistas
         private void btnAdminTaxis_Click(object sender, EventArgs e)
         {
             textoBarra.Text = textoBarra.Text + " Gestion de Taxsis";
+            openChildForm(new ModuloSocios.SociosGestionTaxis());
             //esto va al final 
             //hideSubMenu();
         }
@@ -265,6 +266,12 @@ namespace Capa_Vistas
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnChoferes_Click(object sender, EventArgs e)
+        {
+            textoBarra.Text = textoBarra.Text + " Gestión de Choferes";
+            openChildForm(new ModuloSocios.SociosGestionChoferes());
         }
     }
 }

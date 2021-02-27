@@ -29,6 +29,7 @@ namespace Capa_Vistas
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.pBarraHerramienta = new System.Windows.Forms.Panel();
             this.textoBarra = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -48,11 +49,11 @@ namespace Capa_Vistas
             this.btnCarreras = new System.Windows.Forms.Button();
             this.btnServicios = new System.Windows.Forms.Button();
             this.panelSubClientes = new System.Windows.Forms.Panel();
-            this.btnClienteConsulta = new System.Windows.Forms.Button();
             this.btnClienteAcciones = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.panelSubMenuSocios = new System.Windows.Forms.Panel();
             this.btnAdminTaxis = new System.Windows.Forms.Button();
+            this.btnChoferes = new System.Windows.Forms.Button();
             this.btnAdminSocios = new System.Windows.Forms.Button();
             this.btnSocios = new System.Windows.Forms.Button();
             this.panelSubMenuAdmin = new System.Windows.Forms.Panel();
@@ -207,7 +208,7 @@ namespace Capa_Vistas
             this.panelSubmenuReportes.Controls.Add(this.btnReporteCliente);
             this.panelSubmenuReportes.Controls.Add(this.btnReporteSocio);
             this.panelSubmenuReportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubmenuReportes.Location = new System.Drawing.Point(0, 923);
+            this.panelSubmenuReportes.Location = new System.Drawing.Point(0, 902);
             this.panelSubmenuReportes.Name = "panelSubmenuReportes";
             this.panelSubmenuReportes.Size = new System.Drawing.Size(216, 225);
             this.panelSubmenuReportes.TabIndex = 14;
@@ -316,7 +317,7 @@ namespace Capa_Vistas
             this.btnReportes.ForeColor = System.Drawing.SystemColors.Control;
             this.btnReportes.Image = global::Capa_Vistas.Properties.Resources.pdf_16px;
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.Location = new System.Drawing.Point(0, 873);
+            this.btnReportes.Location = new System.Drawing.Point(0, 852);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(216, 50);
             this.btnReportes.TabIndex = 13;
@@ -330,7 +331,7 @@ namespace Capa_Vistas
             // 
             this.panelSubMenuServicios.Controls.Add(this.btnCarreras);
             this.panelSubMenuServicios.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuServicios.Location = new System.Drawing.Point(0, 816);
+            this.panelSubMenuServicios.Location = new System.Drawing.Point(0, 795);
             this.panelSubMenuServicios.Name = "panelSubMenuServicios";
             this.panelSubMenuServicios.Size = new System.Drawing.Size(216, 57);
             this.panelSubMenuServicios.TabIndex = 13;
@@ -370,7 +371,7 @@ namespace Capa_Vistas
             this.btnServicios.ForeColor = System.Drawing.SystemColors.Control;
             this.btnServicios.Image = global::Capa_Vistas.Properties.Resources.reception_16px;
             this.btnServicios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnServicios.Location = new System.Drawing.Point(0, 766);
+            this.btnServicios.Location = new System.Drawing.Point(0, 745);
             this.btnServicios.Name = "btnServicios";
             this.btnServicios.Size = new System.Drawing.Size(216, 50);
             this.btnServicios.TabIndex = 12;
@@ -382,36 +383,12 @@ namespace Capa_Vistas
             // 
             // panelSubClientes
             // 
-            this.panelSubClientes.Controls.Add(this.btnClienteConsulta);
             this.panelSubClientes.Controls.Add(this.btnClienteAcciones);
             this.panelSubClientes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubClientes.Location = new System.Drawing.Point(0, 646);
+            this.panelSubClientes.Location = new System.Drawing.Point(0, 690);
             this.panelSubClientes.Name = "panelSubClientes";
-            this.panelSubClientes.Size = new System.Drawing.Size(216, 120);
+            this.panelSubClientes.Size = new System.Drawing.Size(216, 55);
             this.panelSubClientes.TabIndex = 15;
-            // 
-            // btnClienteConsulta
-            // 
-            this.btnClienteConsulta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnClienteConsulta.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnClienteConsulta.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnClienteConsulta.FlatAppearance.BorderSize = 0;
-            this.btnClienteConsulta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
-            this.btnClienteConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClienteConsulta.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClienteConsulta.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnClienteConsulta.Image = global::Capa_Vistas.Properties.Resources.pdf_24px;
-            this.btnClienteConsulta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClienteConsulta.Location = new System.Drawing.Point(0, 50);
-            this.btnClienteConsulta.Name = "btnClienteConsulta";
-            this.btnClienteConsulta.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnClienteConsulta.Size = new System.Drawing.Size(216, 50);
-            this.btnClienteConsulta.TabIndex = 9;
-            this.btnClienteConsulta.Text = "Consulta Clientes";
-            this.btnClienteConsulta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClienteConsulta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnClienteConsulta.UseVisualStyleBackColor = false;
-            this.btnClienteConsulta.Click += new System.EventHandler(this.btnClienteConsulta_Click);
             // 
             // btnClienteAcciones
             // 
@@ -448,7 +425,7 @@ namespace Capa_Vistas
             this.btnClientes.ForeColor = System.Drawing.SystemColors.Control;
             this.btnClientes.Image = global::Capa_Vistas.Properties.Resources.reception_16px;
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(0, 596);
+            this.btnClientes.Location = new System.Drawing.Point(0, 640);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(216, 50);
             this.btnClientes.TabIndex = 11;
@@ -461,11 +438,12 @@ namespace Capa_Vistas
             // panelSubMenuSocios
             // 
             this.panelSubMenuSocios.Controls.Add(this.btnAdminTaxis);
+            this.panelSubMenuSocios.Controls.Add(this.btnChoferes);
             this.panelSubMenuSocios.Controls.Add(this.btnAdminSocios);
             this.panelSubMenuSocios.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubMenuSocios.Location = new System.Drawing.Point(0, 488);
             this.panelSubMenuSocios.Name = "panelSubMenuSocios";
-            this.panelSubMenuSocios.Size = new System.Drawing.Size(216, 108);
+            this.panelSubMenuSocios.Size = new System.Drawing.Size(216, 152);
             this.panelSubMenuSocios.TabIndex = 10;
             // 
             // btnAdminTaxis
@@ -480,7 +458,7 @@ namespace Capa_Vistas
             this.btnAdminTaxis.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAdminTaxis.Image = global::Capa_Vistas.Properties.Resources.taxi_16px;
             this.btnAdminTaxis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdminTaxis.Location = new System.Drawing.Point(0, 50);
+            this.btnAdminTaxis.Location = new System.Drawing.Point(0, 100);
             this.btnAdminTaxis.Name = "btnAdminTaxis";
             this.btnAdminTaxis.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnAdminTaxis.Size = new System.Drawing.Size(216, 50);
@@ -490,6 +468,29 @@ namespace Capa_Vistas
             this.btnAdminTaxis.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAdminTaxis.UseVisualStyleBackColor = false;
             this.btnAdminTaxis.Click += new System.EventHandler(this.btnAdminTaxis_Click);
+            // 
+            // btnChoferes
+            // 
+            this.btnChoferes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnChoferes.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnChoferes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnChoferes.FlatAppearance.BorderSize = 0;
+            this.btnChoferes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.btnChoferes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChoferes.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChoferes.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnChoferes.Image = global::Capa_Vistas.Properties.Resources.handshake_16px;
+            this.btnChoferes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChoferes.Location = new System.Drawing.Point(0, 50);
+            this.btnChoferes.Name = "btnChoferes";
+            this.btnChoferes.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnChoferes.Size = new System.Drawing.Size(216, 50);
+            this.btnChoferes.TabIndex = 10;
+            this.btnChoferes.Text = "Gestión de Choferes";
+            this.btnChoferes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChoferes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnChoferes.UseVisualStyleBackColor = false;
+            this.btnChoferes.Click += new System.EventHandler(this.btnChoferes_Click);
             // 
             // btnAdminSocios
             // 
@@ -705,6 +706,7 @@ namespace Capa_Vistas
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.pBarraHerramienta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
@@ -744,7 +746,6 @@ namespace Capa_Vistas
         private System.Windows.Forms.Button btnRutas;
         private System.Windows.Forms.Button btnUsuarios;
         private System.Windows.Forms.Button btnEmpresa;
-        private System.Windows.Forms.Button btnSocios;
         private System.Windows.Forms.Panel panelSubMenuSocios;
         private System.Windows.Forms.Button btnAdminTaxis;
         private System.Windows.Forms.Button btnAdminSocios;
@@ -759,7 +760,8 @@ namespace Capa_Vistas
         private System.Windows.Forms.Button btnReporteGeneral;
         private System.Windows.Forms.Button btnReporteTaxis;
         private System.Windows.Forms.Panel panelSubClientes;
-        private System.Windows.Forms.Button btnClienteConsulta;
         private System.Windows.Forms.Button btnClienteAcciones;
+        private System.Windows.Forms.Button btnChoferes;
+        private System.Windows.Forms.Button btnSocios;
     }
 }

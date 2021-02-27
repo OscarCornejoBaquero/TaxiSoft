@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Vistas.ModuloTaxis
+namespace Capa_Vistas.ModuloSocios
 {
-    public partial class AdministracionRutas : Form
+    public partial class SociosGestionChoferes : Form
     {
-        public AdministracionRutas()
+        public SociosGestionChoferes()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
