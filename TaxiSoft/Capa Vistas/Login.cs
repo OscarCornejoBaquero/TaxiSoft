@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_Controladora;
 
 namespace Capa_Vistas
 {
@@ -79,6 +80,9 @@ namespace Capa_Vistas
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Usuarios per = new Usuarios();
+            MessageBox.Show(per.pruebaConexion());
+
             Inicio inicio = new Inicio();
             inicio.Show();
         }
