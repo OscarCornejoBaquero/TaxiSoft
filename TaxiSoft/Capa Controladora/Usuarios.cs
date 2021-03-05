@@ -58,13 +58,7 @@ namespace Capa_Controladora
         {
             return "";
         }
-        public String pruebaConexion()
-        {
-            
-            
-            
-            return con.abrir_conexion(); 
-        }
+
 
     }
 }

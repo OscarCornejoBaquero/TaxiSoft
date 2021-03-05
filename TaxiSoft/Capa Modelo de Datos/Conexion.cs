@@ -12,24 +12,23 @@ namespace Capa_Modelo_de_Datos
         string ConnectionString = "server=localhost; database=TaxiSoft ; integrated security = true";
         SqlConnection conexion;
 
-        public String  abrir_conexion()
-        {
-            String resp;
-            try
-            {
-                conexion = new SqlConnection(ConnectionString);
-                conexion.Open();
-                resp = "Conectado";
-            }
-            catch (Exception e)
-            {
-                resp = "No Conectado";
-            }
-            
-            
+        public Conexion(){}
 
-            return resp;
+        public SqlConnection abrir_conexion()
+        {
+            conexion = new SqlConnection(ConnectionString);
+            conexion.Open();
+            return conexion;
+            
         }
+        public SqlConnection cerrar_conexion()
+        {
+            conexion = new SqlConnection(ConnectionString);
+            conexion.Close();
+            return conexion;
+            
+        }
+
 
     }
 }

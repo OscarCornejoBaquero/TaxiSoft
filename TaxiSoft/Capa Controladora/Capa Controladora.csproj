@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdministracionEmpresaController.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RellenoCombos.cs" />
     <Compile Include="Usuarios.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClsCantones.cs" />
+    <Compile Include="ClsProvincias.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="ConsultaDatosAdministracion.cs" />
+    <Compile Include="IngresosDatos.cs" />
+    <Compile Include="Objetos\Empresa.cs" />
+    <Compile Include="Objetos\Persona.cs" />
+    <Compile Include="Objetos\Propietario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>

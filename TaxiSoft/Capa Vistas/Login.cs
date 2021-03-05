@@ -80,8 +80,8 @@ namespace Capa_Vistas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Usuarios per = new Usuarios();
-            MessageBox.Show(per.pruebaConexion());
+            //Usuarios per = new Usuarios();
+            //MessageBox.Show(per.pruebaConexion());
 
             Inicio inicio = new Inicio();
             inicio.Show();
